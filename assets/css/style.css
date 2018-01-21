@@ -29,6 +29,19 @@
             background-size: cover;
         }
 
+        .app-card {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            background: white;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .card-drawer{
+            height: 80px;
+            margin-top: 20px;
+        }
+
         .cover-title{
             font-size: 8em;
         }

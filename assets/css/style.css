@@ -14,10 +14,17 @@
             color: #24292e;
         }
 
+        /*
+            change the colors in the second gradient
+            for a different mast look
+        */
         header.masthead {
-            padding-top: 10rem;
+            padding-top: 2rem;
             padding-bottom: calc(10rem - 56px);
-            background-image: url("../../Mockups/cover.jpg ");
+            
+            background: linear-gradient(170deg, transparent 48.5%, white 49%),
+                        linear-gradient(to top right, #26C6DA, #8D6E63);
+            
             background-position: center center;
             background-size: cover;
         }
